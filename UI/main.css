@@ -131,6 +131,17 @@ form button {
     box-shadow: 0 1px rgb(12, 82, 3);
 }
 
+/* Sign in area styles */
+form .sign-in {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+    max-width: 90%;
+    padding-top: 25px;
+}
+
+
 
 /* General display styles */
 
