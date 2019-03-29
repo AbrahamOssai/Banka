@@ -337,4 +337,8 @@ main section.dashboard-area .dashboard .accounts.new-account {
 
 }
 
+main section.dashboard-area .dashboard.new {
+	align-items: center;	
+}
+
 
