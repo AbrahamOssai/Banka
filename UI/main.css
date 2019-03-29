@@ -341,4 +341,51 @@ main section.dashboard-area .dashboard.new {
 	align-items: center;	
 }
 
+main section.dashboard-area .dashboard.hist {
+	justify-content: space-between;
 
+}
+
+main section.dashboard-area .dashboard .search {
+	height: 100px;
+	max-height: 250px;
+
+}
+
+main section.dashboard-area .dashboard .search form {
+	height: 95%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 99%;
+
+}
+
+main section.dashboard-area .dashboard .search form button{
+	margin-top: 40px
+}
+
+
+main section.dashboard-area .dashboard .search form .form-group {
+	flex-direction: row;
+    flex-wrap: wrap-reverse;
+    width: 20%;
+    padding-top: 5px;
+
+}
+
+.account-details {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 100px;
+	
+}
+
+.account-details h4{
+	font-weight: normal;
+	padding: 15px;
+	
+}
