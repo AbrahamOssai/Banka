@@ -8,11 +8,12 @@
 
 html {
     font: normal 16px sans-serif;
-    color: #555;
+    color: white;
 }
 
 nav {
     list-style: none;
+    color: white;
 }
 
 a {
@@ -47,22 +48,41 @@ header {
 
 header h1 {
     font-family: "Quicksand", sans-serif;
-    text-shadow: 0 1px rgba(56, 56, 56, 0.5);
+    /* text-shadow: 0 1px rgba(56, 56, 56, 0.5); */
 }
 
 header nav {
     display: flex;
     margin-right: -15px;
+    align-items: center;
 }
 
 header nav ul {
     display: flex;
 }
 
+header nav .nav-group {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+header nav .profile-name {
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-end;
+}
+
+header nav img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
 header nav ul li {
     margin: 0 15px;
     list-style: none;
-    text-shadow: 0 1px rgb(56, 56, 56, 0.3);
+    /* text-shadow: 0 1px rgb(56, 56, 56, 0.3); */
 }
 
 /* Main Section Styles */
@@ -147,6 +167,28 @@ form .sign-in {
 
 .general-display{
     width: 70%;
+    background-image: url(images/beach.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* sidebar area styles */
+
+main section.sidebar {
+    width: 20%;
+    background-color: #014278;
+    height: 100%;
+}
+
+main section.sidebar img{
+    width: 30px;
+    height: 30px
+
+}
+
+main section.dashboard-area {
+    width: 80%;
+    height: 100%;
     background-image: url(images/beach.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
