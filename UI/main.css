@@ -1,0 +1,142 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 16px sans-serif;
+    color: #555;
+}
+
+nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 170px;
+    box-shadow: 0 1px rgb(56, 56, 56);
+}
+
+
+/* Header Styles */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 60px;
+    background-color: #2680EB
+    
+}
+
+header h1 {
+    font-family: "Quicksand", sans-serif;
+    text-shadow: 0 1px rgba(56, 56, 56, 0.5);
+}
+
+header nav {
+    display: flex;
+    margin-right: -15px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    list-style: none;
+    text-shadow: 0 1px rgb(56, 56, 56, 0.3);
+}
+
+/* Main Section Styles */
+
+main {
+    display: flex;
+    height: calc(100vh - 60px);
+    background-color: gray;
+}
+
+/* Signup area styles */
+
+.signup-area {
+    background-color: #014278;
+    width: 45%;
+}
+
+/* Form styles */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 30%;
+    width: 70%;
+    background-color: #0274BA;
+    color: white;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+form h2 {
+    margin-top: 10px;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 90%;
+    padding-top: 25px;
+}
+
+form .form-item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+form .form-item label{
+    text-shadow: 0 1px rgb(56, 56, 56);
+}
+
+form button {
+    width: 200px;
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 1px rgb(12, 82, 3);
+}
+
+
+/* General display styles */
+
+.general-display{
+    width: 70%;
+    background-image: url(images/beach.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
