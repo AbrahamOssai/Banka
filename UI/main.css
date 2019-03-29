@@ -329,4 +329,12 @@ main section.dashboard-area .dashboard .recent-transactions {
 	
 }
 
+main section.dashboard-area .dashboard .accounts.new-account {
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+
+}
+
 
