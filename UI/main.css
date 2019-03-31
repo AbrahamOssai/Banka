@@ -426,3 +426,45 @@ button.green {
 	margin-bottom: 10px;
 	align-items: center;
 }
+
+main section.dashboard-area .dashboard .accounts-box img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+main section.dashboard-area .dashboard .accounts-box.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: centre;
+    background-color: #0274BA;
+    height: 200px;
+}
+
+main section.dashboard-area .dashboard .accounts-box.user .main-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+main section.dashboard-area .dashboard .accounts-box.user .details {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main section.dashboard-area .dashboard .accounts-box.user .right-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    background-color: #014278;
+}
