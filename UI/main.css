@@ -300,8 +300,6 @@ main section.dashboard-area .dashboard {
 }
 
 main section.dashboard-area .dashboard .title {
-	
-	text-decoration: underline;
 	color: white;
 	text-align: left;
 }
@@ -388,4 +386,43 @@ main section.dashboard-area .dashboard .search form .form-group {
 	font-weight: normal;
 	padding: 15px;
 	
+}
+
+button.delete {
+    width: 200px;
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    line-height: 30px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+	box-shadow: 0 1px rgb(12, 82, 3);
+	margin-left: 20px;
+	
+}
+
+.title {
+	width: 100%;
+	display: flex;
+}
+
+button.green {
+	width: 200px;
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+    line-height: 30px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+	box-shadow: 0 1px rgb(12, 82, 3);
+	margin-left: 20px;
+
+}
+
+.btn {
+	display: flex;
+	margin-bottom: 10px;
+	align-items: center;
 }
