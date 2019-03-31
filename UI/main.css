@@ -16,10 +16,11 @@ nav {
     color: white;
 }
 
-html body a {
+a {
     text-decoration: none;
-    opacity: 0.95;
+    opacity: 0.90;
     color: white;
+    
 }
 
 a:hover {
@@ -468,3 +469,4 @@ main section.dashboard-area .dashboard .accounts-box.user .right-area {
     width: 30%;
     background-color: #014278;
 }
+
