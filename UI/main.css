@@ -470,3 +470,41 @@ main section.dashboard-area .dashboard .accounts-box.user .right-area {
     background-color: #014278;
 }
 
+.index {
+    position: relative;
+    justify-content: right;
+    text-align: right;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+.index .back-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(./images/mount.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index .side {
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.index .side h1 {
+    padding: 10px;
+    font-weight: normal;
+}
+
+#idx {
+    background: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
