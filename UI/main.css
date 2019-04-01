@@ -429,7 +429,7 @@ button.green {
     outline: none;
     cursor: pointer;
 	box-shadow: 0 1px rgb(12, 82, 3);
-	margin-left: 20px;
+	/* margin-left: 20px; */
 
 }
 
