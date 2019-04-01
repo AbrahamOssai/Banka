@@ -74,7 +74,7 @@ table .balance h4 {
 	text-align: right;
 }
 
-table button {
+table a.btn {
 	border-radius: 20px;
 	background-color: green;
 	/* border-style: none; */
