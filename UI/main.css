@@ -59,15 +59,19 @@ table div {
 	width: 100%;
 	
 }
+table tr {
+    margin: 2px;
+}
 
 table thead h4{
-	padding: 1px 6px;
+	padding: 2px 6px;
 }
 
 table tbody div h4{
-	padding: 1px 4px;
+	padding: 2px 4px;
 	text-align: center;
-	color: black;
+    color: black;
+    margin: 2px;
 }
 
 table .balance h4 {
@@ -79,7 +83,11 @@ table a.btn {
 	background-color: green;
 	/* border-style: none; */
 	color: white;
-	padding: 2px 10px;
+    padding: 2px 10px;
+    text-align: center;
+    box-shadow: 0 1px rgb(12, 82, 3);
+    margin: 4px;
+ 
 }
 
 
@@ -389,7 +397,7 @@ main section.dashboard-area .dashboard .search form .form-group {
 	
 }
 
-button.delete {
+.delete {
     width: 200px;
     background-color: red;
     border: none;
@@ -398,14 +406,17 @@ button.delete {
     font-size: 20px;
     outline: none;
     cursor: pointer;
-	box-shadow: 0 1px rgb(12, 82, 3);
-	margin-left: 20px;
-	
+    box-shadow: 0 1px rgb(12, 82, 3);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .title {
 	width: 100%;
-	display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 button.green {
@@ -422,11 +433,15 @@ button.green {
 
 }
 
-.btn {
+.btn-group {
 	display: flex;
 	margin-bottom: 10px;
-	align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
 }
+
 
 main section.dashboard-area .dashboard .accounts-box img {
     border-radius: 50%;
